@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, * {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+  background-color: magenta;
+  border: 5px solid lighten(magenta, 30%);
+  color: white;
+  margin: 0 0.5em;
+  padding: 1em;
+  outline: none;
+}
+
+button:hover {
+   background-color: darken($button-color, 5%);
+ }
+button:active {
+   background-color: darken($button-color, 10%);
+ }
+
+.Counter {
+  border: 5px solid lighten(magenta, 40%);
+  font-weight: 700;
+  margin: 2em auto;
+  padding: 2em;
+  width: 400px;
+}
+
+.count {
+  font-size: 8em;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}

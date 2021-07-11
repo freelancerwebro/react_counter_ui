@@ -1,8 +1,11 @@
 # React Counter
 Build a simple Counter app using React JS and Redux
 
-## Start app
-In order to start the project, you can run:
+## Install dependencies
+
+### `npm install`
+
+## Run the app
 
 ### `npm start`
 
